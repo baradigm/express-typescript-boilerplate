@@ -15,7 +15,6 @@ yarn-error.log
 .DS_Store
 Thumbs.db
 .tmp/
-src/api/schema.gql
 
 # Typing #
 typings/
@@ -32,9 +31,6 @@ tsconfig.build.json
 # Generated source-code #
 src/**/*.js
 src/**/*.js.map
-!src/public/**/*
+!src/client/**/*
 test/**/*.js
 test/**/*.js.map
-coverage/
-!test/preprocessor.js
-mydb.sql
